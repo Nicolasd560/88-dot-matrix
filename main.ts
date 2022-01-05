@@ -1,0 +1,13 @@
+led.enable(false)
+basic.forever(function () {
+    pins.digitalWritePin(DigitalPin.P5, 0)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    pins.digitalWritePin(DigitalPin.P3, 1)
+    pins.digitalWritePin(DigitalPin.P6, 1)
+    pins.digitalWritePin(DigitalPin.P1, 1)
+    pins.digitalWritePin(DigitalPin.P7, 1)
+    pins.digitalWritePin(DigitalPin.P11, 1)
+    pins.digitalWritePin(DigitalPin.P0, 1)
+    pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P8, 1)
+})
